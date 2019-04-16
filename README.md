@@ -1,0 +1,2 @@
+# CryptocurrencyArbitrageTrader
+Built, entirely in Python and Pandas, a real time Cryptocurrency price discrepancy detector. The tool was able to detect price differences across four different exchanges, and only traded where there was profit potential, as it understood each difference's volume and bid amounts. Profitable opportunities were then automatically executed on, through the selected Cryptocurrency exchange's APIs. Other libraries used included numpy, urllib and pickle.
