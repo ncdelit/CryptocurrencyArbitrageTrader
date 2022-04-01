@@ -40,10 +40,10 @@ def condition(value):
     return value
 
 def SendEmail(Subject,Body):
-    fromaddr = 'ncdelit@gmail.com'
-    toaddrs  = 'ncdelit@gmail.com'
+    fromaddr = ''
+    toaddrs  = ''
     msg = 'Subject: {}\n\n{}'.format(Subject, Body)
-    username = 'ncdelit@gmail.com'
+    username = ''
     password = ''
     server = smtplib.SMTP('smtp.gmail.com:587')
     server = smtplib.SMTP('smtp.gmail.com:587')
